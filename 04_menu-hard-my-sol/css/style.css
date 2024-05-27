@@ -5,20 +5,22 @@ nav {
     margin: 0px;
     display: flex;
     flex-direction: row;
-    justify-items: flex-end;
+    justify-items: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-nav a {
+a {
     display: flex;
     height: 100%;
-    width: 80%;
+    width: 40%;
     justify-content: center;
     align-items: center;
 }
 
 
-nav a:hover {
+a:hover {
     background: #666;
     color: #ccc;
 }
@@ -30,4 +32,12 @@ img {
     justify-self: flex-start;
     align-items: center;
     margin-right: 5rem;
+}
+
+button {
+    display: flex;
+    justify-self: flex-right;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 5rem;
 }
