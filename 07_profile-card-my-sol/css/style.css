@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: solid;
+}
+
+header {
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+button {
+    justify-self: flex-end;
+}

@@ -1,0 +1,34 @@
+.product-card {
+    width: 220px;
+    border: 1px solid black;
+}
+
+img {
+    width: 80%;
+    margin: 30px 10px;
+    align-self: center;
+}
+
+.product-image {
+    background-color: #f5cf2d;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+small {
+    color: white;
+}
+
+.product-information {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.price {
+    
+    align-self: flex-end;
+}
+

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-family: "Lora", serif;
+    margin: 5rem 0 0 0;
+}
+
+#card {
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 17rem;
+    aspect-ratio: 4/5.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-text {
+    font-size:14px;
+    font-weight: bold;
+    padding: 0rem 2rem 0.5rem 2rem;
+}
+
+#author {
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(97, 97, 97);
+}
+
+ul {
+    display: flex;
+    justify-self: flex-end;
+    
+}
+
+li {
+    color: gray;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#active {
+    color: black;
+
+}
+
+
