@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 4rem 0rem 0rem 4rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#card {
+    background-color: white;
+    width: 42rem;
+    height: 25rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    box-shadow: 0.2rem 0.2rem 3rem rgb(112, 112, 112);
+    margin: 0px;
+}
+
+#left {
+    background-color: rgb(250, 187, 13);
+    flex: 1;
+    height: 100%;
+    margin: 0px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+img {
+    margin-top: auto;
+    width: 100%;
+}
+
+#price {
+    font-size: 1.5rem;
+    margin: auto 0 0 auto;
+}
+
+
+#right {
+    flex: 1;
+    padding: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title {
+    margin: auto 0 0 0;
+    margin-inline-end: 0em;
+    font-size: 2rem;
+}
+
+#Subtitle {
+    font-weight: 100;
+    margin: 0.5rem 0 0 0;
+    margin-inline-end: 0em;
+}
+
+
+#description {
+    color: rgb(82, 82, 82);
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
+button  {
+    appearance: none;
+    background: none;
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 1em;
+    margin: auto 0 0 auto;
+}
